@@ -29,3 +29,13 @@ On how:
   if matches == @["a", "ab", "bc", "c", "c", "a", "ab"]:
     echo("success")
 ```
+
+<b>Simple search, example</b>
+```
+  # Dictionary built with words:
+    @["monkey", "was", "time", "lava"], 
+  # Will return matches:
+    @["time", "was", "monkey"], 
+  # If searched with phrase
+    "In the time of chimpanzees I was a monkey."
+```
