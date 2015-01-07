@@ -131,6 +131,7 @@ when isMainModule:
   test(@["dlf", "l"], @["l"], "The pot had a handle")
   test(@["handle", "andle", "ndle", "dle", "le", "e"],@["e", "handle", "andle", "ndle", "dle", "le", "e"], "The pot had a handle")
   test(@["acintosh", "in", "tosh"], @["in", "acintosh", "tosh"], "macintosh")
+  test(@["monkey", "was", "time", "lava"], @["time", "was", "monkey"], "In the time of chimpanzees I was a monkey.")
 
 
 
