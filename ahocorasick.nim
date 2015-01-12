@@ -37,11 +37,7 @@ proc add*(a: var AhoCorasick, s: string) =
 
     if a.tree[current].to.hasKey(asInt) == false:
       a.tree.mget(current).to[asInt] = path
-
-      if current == a.rootValue:
-        a.tree[path] = makeNode(a.rootValue)
-      else:
-        a.tree[path] = makeNode(a.rootValue)
+      a.tree[path] = makeNode(a.rootValue)
     current = path
       
   a.tree.mget(s).word = true
